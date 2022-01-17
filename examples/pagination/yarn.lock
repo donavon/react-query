@@ -801,6 +801,32 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@types/prop-types@*":
+  version "15.7.4"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
+  integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
+
+"@types/react-query@^0.3.7":
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/@types/react-query/-/react-query-0.3.9.tgz#44632be07f89b17129f0382d69ffaf7f0672a2ad"
+  integrity sha512-di5EVtAy/3q95AdtbZWk2jo2yjKw+9AJDWnEllUaS/s5Zctvh1wppiMOZ+cUs3yR2V4xY6qwD5rQ7pP+fUC6/A==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*":
+  version "17.0.38"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.38.tgz#f24249fefd89357d5fa71f739a686b8d7c7202bd"
+  integrity sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -1880,6 +1906,11 @@ cssnano-simple@1.0.0:
   dependencies:
     cssnano-preset-simple "^1.0.0"
     postcss "^7.0.18"
+
+csstype@^3.0.2:
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -4415,10 +4446,12 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
   integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
 
-react-query@latest:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-0.0.15.tgz#240a700b1ecd81b14530b55723789afbe05130ae"
-  integrity sha512-2AzF594nsUEhOJKVPH9V7OkBVp2rPGkvOsZyN28ufcFuZsrbCvcm6jIQYax2FMdB0VLOnXCy2QsPIYoAfJao2A==
+react-query@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-0.4.3.tgz#ce6b90ee1677868c24bbf3050803c811f97e179c"
+  integrity sha512-EoKxO41V3s0yh1LqeA3o7IQ/nO7gbCeHM1yCeVNMjyQ5kfeV7n1FgxXbOLEV3VZLTIxvHML5/n06Q8dvpLIqFA==
+  dependencies:
+    "@types/react-query" "^0.3.7"
 
 read-pkg@^2.0.0:
   version "2.0.0"
