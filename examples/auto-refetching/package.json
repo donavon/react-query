@@ -6,7 +6,7 @@
   "dependencies": {
     "isomorphic-unfetch": "3.0.0",
     "next": "9.1.1",
-    "react-query": "latest"
+    "react-query": "0.4.3"
   },
   "scripts": {
     "dev": "next",
