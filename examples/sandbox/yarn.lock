@@ -1182,6 +1182,11 @@
   dependencies:
     ramda "^0.26.0"
 
+"@snyk/protect@^1.990.0":
+  version "1.990.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.990.0.tgz#cf79f8fde4e166667135bcfc05c977b61fdbda7e"
+  integrity sha512-YmuBFhNpgX5kmSz/WE/lyX4j5jXqEKMydKco0+DxDhCpw8me8p6JBpWl9Y+LhzVECD9NnAqTKc5mp42Px4TJjw==
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
