@@ -8,7 +8,8 @@
     "react": "0.0.0-experimental-5faf377df",
     "react-dom": "0.0.0-experimental-5faf377df",
     "react-query": "latest",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@rescripts/cli": "^0.0.11",
@@ -20,12 +21,15 @@
     "start": "rescripts start",
     "build": "rescripts build",
     "test": "rescripts test",
-    "eject": "rescripts eject"
+    "eject": "rescripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
