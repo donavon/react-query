@@ -8,7 +8,7 @@
     "react": "0.0.0-experimental-5faf377df",
     "react-dom": "0.0.0-experimental-5faf377df",
     "react-query": "latest",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.0"
   },
   "devDependencies": {
     "@rescripts/cli": "^0.0.11",
